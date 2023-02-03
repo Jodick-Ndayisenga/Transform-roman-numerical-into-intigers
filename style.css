@@ -1,0 +1,69 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+input{
+    height: 20px;
+    padding: 5px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.sb{
+    height: 31px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    width: 90px;
+    border: 2px solid green;
+    background-color: rgb(226, 225, 225);
+    transition: ease-in-out .4s;
+}
+.sb:hover{
+    cursor: pointer;
+    background-color: #ff7200;
+    color: white;
+    height: 34px;
+    font-size: 1.4rem;
+    width: 100px;
+    border: 2px solid white;
+}
+button{
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 10px 10px;
+    transition: ease .3s;
+}
+button:hover{
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: rgb(9, 250, 141);
+}
+#delete{
+    background-color: green;
+    margin: 10px;
+    color: white;
+}
+#typed{
+    padding: 0px;
+    margin-left: 200px;
+    
+}
+li{
+    list-style: none;
+    text-align: left;
+    margin: 15px 10px;
+    font-size: 1.5rem;
+    
+}
+div{
+    margin-left: 400px;
+    text-align: center;
+    
+    width: fit-content;
+}
